@@ -1,0 +1,56 @@
+.grid-class {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    width: 60%;
+    height: 70vh;
+    margin: auto;
+    background-color: #eee;
+    text-align: center;
+}
+
+.grid_class {
+    
+    height: 10vh;
+    margin: 30px;
+    line-height: 10px;
+}
+h1 {
+    font-weight: bolder;
+    font-family:sans-serif;
+    color: white;
+
+}
+.grid-items1 { 
+    background-color: red;
+    height: 40%;
+   
+}
+    h2 {
+        font-family:sans-serif;
+        color: white;
+    }
+
+    .grid-items2 {
+       height: 120%;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+   
+    .grid-items3 {
+        position: relative;
+        bottom: 180px;
+        text-align: justify;
+        line-height: 13px;
+
+    }
+ button {
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    width: 6rem;
+    height: 2rem;
+    color: white;
+ }

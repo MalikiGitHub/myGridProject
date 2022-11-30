@@ -1,0 +1,54 @@
+.grid {
+border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-items {
+    border: 2px solid black;
+    
+}
+
+.grid-items2 {
+    grid-column: span 2;
+}
+
+.grids{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   grid-gap: 10px; 
+   padding: 10px;
+}
+
+.grid-itemss {
+    border: 2px solid black;
+
+}
+
+.grid-itemsA {
+    grid-row: span 3;
+}
+
+.gridsy {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:2px;
+    border: 2px solid black;
+    padding: 4px;
+    height: 50vh;
+}
+.grid-itemsy {
+    border: 2px solid black;
+}
+.grid-itemsy1 {
+    grid-column: span 2;
+}
+
+.grid-itemsy2 {
+    grid-row: span 3;
+}
+
+.grid-itemsy6 {
+    grid-column: span 2;
+}
